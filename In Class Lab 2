@@ -1,0 +1,35 @@
+# Srivalli Kakumani
+# In Class Lab 2 Question 1
+# 09-25-2023
+
+user = input("Enter a line of text: ")
+
+count = 0;
+for char in user:
+    if char != ' ' and char != '.' and char != ',' and char != "!":
+        count = count + 1
+
+print(count)
+
+
+
+
+# Srivalli Kakumani
+# In Class Lab 2 Question 2
+# 09-25-2023
+
+password = input("Enter your password: ")
+
+for char in password:
+    if char == 'i':
+        password = password.replace('i', '1')
+    elif char == 'a':
+        password = password.replace('a', '@')
+    elif char == 'm':
+        password = password.replace('m', 'M')
+    elif char == 'B':
+        password = password.replace('B', '8')
+    elif char == 'o':
+        password = password.replace('s', '$')
+
+print(password + "!")
