@@ -1,0 +1,103 @@
+# Srivalli Kakumani
+# In Class Lab Question 1
+# 09-13-2023
+
+w = int(input("Enter the value of w: "))
+x = int(input("Enter the value of x: "))
+y = int(input("Enter the value of y: "))
+z = int(input("Enter the value of z: "))
+
+
+if w == x and y == z:
+    print("two pairs")
+if w == y and x == z:
+    print("two pairs")
+if w == z and y == x:
+    print("two pairs")
+else:
+    print("not two pairs")
+
+
+
+# Srivalli Kakumani
+# In Class Lab Question 2
+# 09-13-2023
+
+x = input("Enter a string: ")
+y = input("Enter a string: ")
+z = input("Enter a string: ")
+
+if x < y and y < z:
+    print(x)
+    print(y)
+    print(z)
+if x < z and z < y:
+    print(x)
+    print(z)
+    print(y)
+if y < x and x < z:
+    print(y)
+    print(x)
+    print(z)
+if y < z and z < x:
+    print(y)
+    print(z)
+    print(x)
+if z < x and x < y:
+    print(z)
+    print(x)
+    print(y)
+if z < y and y < x:
+    print(z)
+    print(y)
+    print(x)
+
+
+
+
+# Srivalli Kakumani
+# In Class Lab Question 3
+# 09-13-2023
+
+x = input("Enter a month: ")
+y = int(input("Enter the day (1 to 31): "))
+
+if (x == "March" or "April" or "May" or "June" or "July" or "August" or "September" or "October" or
+        "November" or "December" "January" or "February" or "March"):
+    if x == "March" and (20 <= y <= 31):
+        print("Spring")
+    elif x == "April" and (1 <= y <= 30):
+        print("Spring")
+    elif x == "May" and (1 <= y <= 31):
+        print("Spring")
+    elif x == "June" and (1 <= y <= 20):
+        print("Spring")
+    elif x == "June" and (21 <= y <= 30):
+        print("Summer")
+    elif x == "July" and (1 <= y <= 31):
+        print("Summer")
+    elif x == "August" and (1 <= y <= 31):
+        print("Summer")
+    elif x == "September" and (1 <= y <= 21):
+        print("Summer")
+    elif x == "September" and (22 <= y <= 30):
+        print("Autumn")
+    elif x == "October" and (1 <= y <= 31):
+        print("Autumn")
+    elif x == "November" and (1 <= y <= 30):
+        print("Autumn")
+    elif x == "December" and (1 <= y <= 20):
+        print("Autumn")
+    elif x == "December" and (21 <= y <= 31):
+        print("Winter")
+    elif x == "January" and (1 <= y <= 31):
+        print("Winter")
+    elif x == "February" and (1 <= y <= 28):
+        print("Winter")
+    elif x == "March" and (1 <= y <= 19):
+        print("Winter")
+    else:
+        print("Invalid")
+
+else:
+    print("Invalid")
